@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-versel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toxic-Storm/nextjs-versel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toxic-Storm/nextjs-versel/issues"
+  },
+  "homepage": "https://github.com/Toxic-Storm/nextjs-versel#readme",
+  "dependencies": {
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
