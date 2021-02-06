@@ -1,5 +1,6 @@
 async function tempo(request, response) {
     const apiSecret = process.env.CONVERTKIT_API_SECRET;
+    const siteUrl = process.env.VERCEL_URL;
     const dynamicDate = new Date();
 
     const primaryemailResponse = await fetch(`https://api.convertkit.com/v3/account?api_secret=${apiSecret}`);
@@ -8,7 +9,8 @@ async function tempo(request, response) {
 
     response.json({
         date: dynamicDate.toGMTString(),
-        email: email
+        email: email,
+        url: siteUrl
     })
 }
 
