@@ -1,4 +1,4 @@
-function tempo(request, response) {
+async function tempo(request, response) {
     const apiSecret = process.env.CONVERTKIT_API_SECRET;
     const dynamicDate = new Date();
 
