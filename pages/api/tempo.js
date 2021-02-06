@@ -7,6 +7,8 @@ async function tempo(request, response) {
     const primaryemailResponseJson = await primaryemailResponse.json();
     const email = primaryemailResponseJson.primary_email_address;
 
+    response.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate');
+
     response.json({
         date: dynamicDate.toGMTString(),
         email: email,
