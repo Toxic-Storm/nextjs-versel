@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-//Sem Função
+//Textos
 function Home() {
 
     return (
