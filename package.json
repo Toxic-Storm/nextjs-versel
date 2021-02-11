@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Toxic-Storm/nextjs-versel#readme",
   "dependencies": {
+    "express-rate-limit": "^5.2.3",
     "next": "^10.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
